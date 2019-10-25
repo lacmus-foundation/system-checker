@@ -2390,7 +2390,7 @@ try:
     GPUs = GPUtil.getGPUs()
     for gpu in GPUs:
         print('Name: {0}'.format(gpu.name))
-        print('Memoey: {0} MB'.format(gpu.memoryTotal))
+        print('Vidio memory: {0} MB'.format(gpu.memoryTotal))
         print('Id: {0}'.format(gpu.id))
         if gpu.memoryTotal > 2000:
             is_gpu = True
